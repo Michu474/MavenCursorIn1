@@ -13,6 +13,7 @@ public class Main {
 		Airlane plane = new Airlane();
 		Car car = new Car();
 		
+		System.out.println("Enter vehicle type (like car)");
 		Scanner scan = new Scanner(System.in);
 		String vehName= scan.nextLine();
 		

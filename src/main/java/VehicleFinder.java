@@ -8,8 +8,8 @@ public class VehicleFinder  {
 	Vehicle veh = new Vehicle();
 	
 	public void getVehSoundByName(String name,HashMap<String,Vehicle> map) {
-		
-		if(map.containsKey(name.toLowerCase())) {
+		name = name.toLowerCase();
+		if(map.containsKey(name)) {
 			
 			veh=map.get(name);
 			veh.getMovementType();
